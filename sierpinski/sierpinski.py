@@ -1,3 +1,8 @@
+###########################
+# Author: Guido Dipietro  #
+# Date: 23/aug/2020		  #
+###########################
+
 # Method:
 
 # 1)Draw a triangle

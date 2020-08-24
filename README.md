@@ -32,7 +32,6 @@ Learn more about this drawing on [this](https://www.youtube.com/watch?v=RGQe8waG
 
 Sierpinski Triangle constructed using [this](https://study.com/academy/lesson/the-sierpinski-triangle-the-chaos-game.html) method. Emerges from chaos. It's very interesting.
 
-<img src="sierpinski/sierpinskygreen.jpg" width="400">
 <img src="sierpinski/sierpinski.PNG" width="400">
 <img src="sierpinski/sierpinski_1000.PNG" width="400">
 <img src="sierpinski/sierpinski10000.PNG" width="400">

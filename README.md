@@ -8,7 +8,7 @@ Inside each folder you'll find all the images I have produced, as well as the so
 
 _(Beware, it might be configured only to generate the last one or something like that, surely you'll have fun tweaking it!)_
 
-Some of this programs are a bit outdated and coded by a less-wise self version of myself, so they might be pretty bad. I'll try to make them better.
+Some of this programs are a bit outdated and coded by a less-wise version of myself, so they might be pretty bad. I'll try to make them better.
 
 Only made for fun purposes.  
 

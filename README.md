@@ -38,6 +38,7 @@ Sierpinski Triangle constructed using something similar to [this](https://study.
 
 ## Mandelbrot Set
 Learn (a very little bit) about this mind-baffling structure [here](https://en.wikipedia.org/wiki/Mandelbrot_set).
+I didn't do this program all by myself, but I don't remember where I got the code from.
 
 <img src="mandelbrot/arte.png">
 

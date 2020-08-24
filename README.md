@@ -3,10 +3,12 @@
 <hr>
 
 # About  
-Drawings of the Dragon Curve, Trapped Knight, Mandelbrot Set, Fibonacci Spiral, and Sierpinski Triangle (by chaos) done in Python using mostly the OpenCV library.  
+Some math drawings done in Python, using mostly the OpenCV library.  
 Inside each folder you'll find all the images I have produced, as well as the source code to generate them yourself.  
 
 _(Beware, it might be configured only to generate the last one or something like that, surely you'll have fun tweaking it!)_
+
+Some of this programs are a bit outdated and coded by a less-wise self version of myself, so they might be pretty bad. I'll try to make them better.
 
 Only made for fun purposes.  
 
@@ -26,6 +28,15 @@ Learn more about this drawing on [this](https://www.youtube.com/watch?v=RGQe8waG
 <img src="horseDraw/horse9.png" width="300">
 <img src="horseDraw/horse5.png" width="300">
 
+## Sierpinski Triangle constructed by chaos
+
+Sierpinski Triangle constructed using [this](https://study.com/academy/lesson/the-sierpinski-triangle-the-chaos-game.html) method. Emerges from chaos. It's very interesting.
+
+<img src="sierpinski/sierpinskygreen.jpg" width="400">
+<img src="sierpinski/sierpinski.PNG" width="400">
+<img src="sierpinski/sierpinski_1000.PNG" width="400">
+<img src="sierpinski/sierpinski10000.PNG" width="400">
+
 ## Mandelbrot Set
 Learn (a very little bit) about this mind-baffling structure [here](https://en.wikipedia.org/wiki/Mandelbrot_set).
 
@@ -35,10 +46,3 @@ Learn (a very little bit) about this mind-baffling structure [here](https://en.w
 The simplest of them all, a traditional Fibonacci Spiral.
 
 <img src="fibonacci/narnia.jpg" width="700">
-
-## Sierpinski Triangle constructed by chaos
-
-Sierpinski Triangle constructed using [this](https://study.com/academy/lesson/the-sierpinski-triangle-the-chaos-game.html) method. Emerges from chaos. It's very interesting.
-
-<img src="sierpinski/sierpinskygreen.jpg" width="400">
-<img src="sierpinski/sierpinski.PNG" width="400">

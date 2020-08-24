@@ -1,3 +1,8 @@
+###########################
+# Author: Guido Dipietro  #
+# Date: 3/mar/2020        #
+###########################
+
 import numpy as np
 import cv2
 import random

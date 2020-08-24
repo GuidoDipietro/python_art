@@ -30,7 +30,7 @@ Learn more about this drawing on [this](https://www.youtube.com/watch?v=RGQe8waG
 
 ## Sierpinski Triangle constructed by chaos
 
-Sierpinski Triangle constructed using [this](https://study.com/academy/lesson/the-sierpinski-triangle-the-chaos-game.html) method. Emerges from chaos. It's very interesting.
+Sierpinski Triangle constructed using something similar to [this](https://study.com/academy/lesson/the-sierpinski-triangle-the-chaos-game.html) method (changing the initial point from something within the triangle to just anywhere). Emerges from chaos. It's very interesting.
 
 <img src="sierpinski/sierpinski.PNG">
 <img src="sierpinski/sierpinski_1000.PNG">

@@ -40,5 +40,5 @@ The simplest of them all, a traditional Fibonacci Spiral.
 
 Sierpinski Triangle constructed using [this](https://study.com/academy/lesson/the-sierpinski-triangle-the-chaos-game.html) method. Emerges from chaos. It's very interesting.
 
-<img src="sierpinski/sierpinskygreen.jpg" width="200">
-<img src="sierpinski/sierpinski.PNG" width="200>
+<img src="sierpinski/sierpinskygreen.jpg" width="400">
+<img src="sierpinski/sierpinski.PNG" width="400">

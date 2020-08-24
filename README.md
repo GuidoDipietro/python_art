@@ -37,8 +37,8 @@ The simplest of them all, a traditional Fibonacci Spiral.
 <img src="fibonacci/narnia.jpg" width="700">
 
 ## Sierpinski Triangle constructed by chaos
-I have to clean the code for this one. You'll have to wait.
 
-Meanwhile watch [this](https://study.com/academy/lesson/the-sierpinski-triangle-the-chaos-game.html), perhaps. It's very interesting.
+Sierpinski Triangle constructed using [this](https://study.com/academy/lesson/the-sierpinski-triangle-the-chaos-game.html) method. Emerges from chaos. It's very interesting.
 
-<img src="sierpinski/sierpinskygreen.jpg" witdh="200">
+<img src="sierpinski/sierpinskygreen.jpg" width="200">
+<img src="sierpinski/sierpinski.PNG" width="200>

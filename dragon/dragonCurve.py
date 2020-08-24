@@ -41,7 +41,7 @@ img = np.zeros((h,w,3), np.uint8)
 for each in turtleCoords:
     cv2.line(img,each[0],each[1],(51,170,18),linepx)
     
-cv2.imshow('narnia',img)
+cv2.imshow('Dragon',img)
 #cv2.imwrite("Dragon5.jpg",img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()

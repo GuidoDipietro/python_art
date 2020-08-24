@@ -1,6 +1,6 @@
 ###########################
 # Author: Guido Dipietro  #
-# Date: 24/aug/2020		  #
+# Date: 24/aug/2020       #
 ###########################
 
 import cv2
@@ -18,7 +18,7 @@ ARC_THICKNESS = 2
 ###### MISC ######
 
 def win_dimensions(n):
-	return WIN_SCALE*fibo(n)+1,WIN_SCALE*fibo(n+1)+1 # height, width
+	return WIN_SCALE*fibo(n)+1,WIN_SCALE*fibo(n+1)+1 # height, width (+ 1 for a tiny margin)
 
 def fibo(n): # only > 0
 	return fibo(n-2)+fibo(n-1) if n>2 else 1
@@ -36,9 +36,8 @@ def get_pts(pt, leapsize, dir_modulo):
 def draw_arc(img, pt, iter_num, squares=False):
 	mod = (iter_num - N_SQUARES) % 4 			# Where in the 4-cycle
 	leap = fibo(iter_num)*WIN_SCALE				# Sq length
-	newpt, el_center = get_pts(pt, leap, mod)	# Sq new vertex
-	#angle = [270,0,90,180][mod]					# Arc angle (drawn as an ellipse arc)
-	angle = [90, 180, 270, 0][mod]
+	newpt, el_center = get_pts(pt, leap, mod)		# Sq new vertex
+	angle = [90, 180, 270, 0][mod]				# Arc angle (drawn as an ellipse arc)
 
 	cv2.ellipse(img,el_center,(leap,leap),angle, 0, 90, ARC_COLOR, ARC_THICKNESS)
 	if squares:
@@ -52,7 +51,7 @@ img = np.zeros((*win_dimensions(N_SQUARES),3))
 origin = (0,0)
 
 for i in np.arange(N_SQUARES, 1, -1):
-	origin = draw_arc(img, origin, i, squares=True)
+	origin = draw_arc(img, origin, i, squares=True)		# squares=False or just drop it if you want to hide the squares
 
 cv2.imshow("Image", img)
 #cv2.imwrite("Fibonacci2020.png", img)

@@ -1,3 +1,8 @@
+###########################
+# Author: Guido Dipietro  #
+# Date: 24/aug/2020		  #
+###########################
+
 import cv2
 import numpy as np
 
@@ -13,15 +18,14 @@ ARC_THICKNESS = 2
 ###### MISC ######
 
 def win_dimensions(n):
-	return WIN_SCALE*fibo(n),WIN_SCALE*fibo(n+1) # height, width
+	return WIN_SCALE*fibo(n)+1,WIN_SCALE*fibo(n+1)+1 # height, width
 
 def fibo(n): # only > 0
 	return fibo(n-2)+fibo(n-1) if n>2 else 1
 
 def get_pts(pt, leapsize, dir_modulo):
-	sq_dirs = np.array([[1,1],[-1,1],[-1,-1],[1,-1]])
-	#el_dirs = np.array([[0,1],[-1,0],[0,-1],[1,0]])
-	el_dirs = np.array([[1,0],[0,1],[-1,0],[0,-1]])
+	sq_dirs = np.array([[1,1],[-1,1],[-1,-1],[1,-1]]) 	# Direction from point to sq 2nd vertex
+	el_dirs = np.array([[1,0],[0,1],[-1,0],[0,-1]])		# Direction from point to arc center
 	sq_vertex = tuple(pt+leapsize*sq_dirs[dir_modulo])
 	el_center = tuple(pt+leapsize*el_dirs[dir_modulo])
 
@@ -36,9 +40,9 @@ def draw_arc(img, pt, iter_num, squares=False):
 	#angle = [270,0,90,180][mod]					# Arc angle (drawn as an ellipse arc)
 	angle = [90, 180, 270, 0][mod]
 
+	cv2.ellipse(img,el_center,(leap,leap),angle, 0, 90, ARC_COLOR, ARC_THICKNESS)
 	if squares:
 		cv2.rectangle(img, pt, newpt, RECT_COLOR, thickness=RECT_WIDTH)
-	cv2.ellipse(img,el_center,(leap,leap),angle, 0, 90, ARC_COLOR, ARC_THICKNESS)
 
 	return newpt
 
@@ -51,6 +55,6 @@ for i in np.arange(N_SQUARES, 1, -1):
 	origin = draw_arc(img, origin, i, squares=True)
 
 cv2.imshow("Image", img)
-cv2.imwrite("Fibonacci2020.png", img)
+#cv2.imwrite("Fibonacci2020.png", img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()

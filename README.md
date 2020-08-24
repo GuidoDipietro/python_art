@@ -5,10 +5,9 @@
 # About  
 Some math drawings done in Python, using mostly the OpenCV library.  
 Inside each folder you'll find all the images I have produced, as well as the source code to generate them yourself.  
+Have fun tweaking the constant values.
 
-_(Beware, it might be configured only to generate the last one or something like that, surely you'll have fun tweaking it!)_
-
-Some of this programs are a bit outdated and coded by a less-wise version of myself, so they might be pretty bad. I'll try to make them better.
+The _Trapped Knight_ is the oldest of these programs of mine, so it might show a less clean coding style than the new ones.
 
 Only made for fun purposes.  
 
@@ -36,12 +35,12 @@ Sierpinski Triangle constructed using [this](https://study.com/academy/lesson/th
 <img src="sierpinski/sierpinski_1000.PNG">
 <img src="sierpinski/sierpinski10000.PNG">
 
+## Fibonacci Spiral
+The simplest of them all, a traditional Fibonacci Spiral.
+
+<img src="fibonacci/Fibonacci2020.png">
+
 ## Mandelbrot Set
 Learn (a very little bit) about this mind-baffling structure [here](https://en.wikipedia.org/wiki/Mandelbrot_set).
 
 <img src="mandelbrot/arte.png">
-
-## Fibonacci Spiral
-The simplest of them all, a traditional Fibonacci Spiral.
-
-<img src="fibonacci/narnia.jpg">

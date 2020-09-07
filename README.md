@@ -53,6 +53,8 @@ Defined as the resulting integer if you change all 2s on the ternary representat
 Another one with a super simple definition, this time even super easy to code and compute, and with a really neat graph.  
 The definition is the shortest one of all these graphs: ```"n-th prime minus its binary reversal" (OEIS)```.  
 
+The sad thing about this is that the graph looks basically identical if you use all the odd numbers instead of the primes, but nevermind.  
+
 <img src="sloane_amazing_graphs/imgs/prime_parallelograms.PNG">
 
 ## [Stern's Sequence](https://oeis.org/A002487) (Cathedrals)

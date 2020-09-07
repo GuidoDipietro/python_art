@@ -15,8 +15,8 @@ Only made for fun.
 
 # Sections
 
-### [Drawings](#drawings)
-### [Plots](#plots)
+### [Drawings](#drawings-1)
+### [Plots](#plots-1)
 
 <hr>
 

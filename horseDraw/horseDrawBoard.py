@@ -1,3 +1,8 @@
+###########################
+# Author: Guido Dipietro  #
+# Date: 3/mar/2020        #
+###########################
+
 import numpy as np
 import cv2
 import random
@@ -50,8 +55,6 @@ def check_nbros(pos, board, limit):
 	else:
 		return pos
 
-#print(check_nbros((0,0),board, board_size))
-
 # calculating path
 pos = (center_cell,center_cell) #resetting pos
 path = np.zeros([board_size**2,2],np.uint32)
@@ -59,8 +62,6 @@ for i in range(board_size**2):
 	path[i] = pos
 	board[tuple(pos)] = board_size**2+1
 	pos = check_nbros(pos, board, board_size)
-
-print(path)
 
 ###### ACTUAL DRAWING ######
 img = np.zeros((board_size*cell_width,board_size*cell_width,3), np.uint8) #black image
@@ -75,9 +76,7 @@ for n,coord in enumerate(path[:-1]):
 		color[2] += 2
 	img = cv2.line(img, tuple(coord), tuple(path[n+1]), color, 2)
 
-#img = cv2.circle(img, tuple(path[-1]), 3, (0,0,255), 3)
-
-cv2.imshow("pela",img)
-cv2.imwrite("horse11.png",img)
+cv2.imshow("Knight",img)
+#cv2.imwrite("horse1427.png",img)
 cv2.waitKey()
 print(board)

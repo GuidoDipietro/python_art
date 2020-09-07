@@ -1,6 +1,6 @@
 ###########################
 # Author: Guido Dipietro  #
-# Date: 23/aug/2020		  #
+# Date: 23/aug/2020       #
 ###########################
 
 # Method:
@@ -37,7 +37,7 @@ def triangle_vertices(ts, ww, wh):
 	return [
 		[ww//2 + ts//2, wh - (wh-th)//2], 	# base rightmost
 		[ww//2 - ts//2, wh - (wh-th)//2], 	# base leftmost
-		[ww//2, (wh-th)//2] 				# peak
+		[ww//2, (wh-th)//2] 			# peak
 	]
 
 ###### DRAWING ######
@@ -51,7 +51,7 @@ def iteration(img, vertices, point):
 
 ###### RUN ######
 
-img = np.zeros((WIN_W, WIN_H, 3), np.uint8)					# blank
+img = np.zeros((WIN_W, WIN_H, 3), np.uint8)			# blank (black) img
 
 vertices = triangle_vertices(T_SIDE, WIN_W, WIN_H)
 point = (random.randint(0,WIN_W), random.randint(0,WIN_H))	# starting point

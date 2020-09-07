@@ -3,6 +3,7 @@
 Created on Sun Oct 28 15:39:57 2018
 
 @author: dipie
+FULL CODE NOT BY GUIDO DIPIETRO
 """
 
 from PIL import Image, ImageDraw

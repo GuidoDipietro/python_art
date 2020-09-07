@@ -1,4 +1,4 @@
-#### Some math drawings using Python
+### Some math drawings using Python
 
 <hr>
 
@@ -7,9 +7,9 @@ Some math drawings done in Python, using mostly the OpenCV library.
 Inside each folder you'll find all the images I have produced, as well as the source code to generate them yourself.  
 Have fun tweaking the constant values!
 
-The _Trapped Knight_ is the oldest of these programs of mine, so it might show a less clean coding style than the new ones.
-
 Only made for fun.  
+
+<sub>The _Trapped Knight_ was coded by a less-smart version of myself, therefore the code is pretty bad. I may or may not re-do it.</sub>
 
 <hr>
 
@@ -44,7 +44,7 @@ Maybe the simplest of them all, a traditional [Fibonacci Spiral](https://en.wiki
 <img src="fibonacci/Fibonacci2020.png">
 
 ## Mandelbrot Set
-Get a minuscule taste of what this mind-baffling structure is all about [here](https://en.wikipedia.org/wiki/Mandelbrot_set).
+Get a minuscule taste of what this mind-baffling structure is all about [here](https://en.wikipedia.org/wiki/Mandelbrot_set).  
 I didn't do this program all by myself, but I don't remember where I got the code from.
 
 <img src="mandelbrot/arte.png">

@@ -37,5 +37,4 @@ for n in range(1,N_POINTS):
 fig, ax = plt.subplots(nrows=1, ncols=1)
 plt.scatter(range(N_POINTS), y, s=1, color=COLOR)
 ax.set_facecolor(FACECOLOR) # using this to make the "night sky"
-
 plt.show()
